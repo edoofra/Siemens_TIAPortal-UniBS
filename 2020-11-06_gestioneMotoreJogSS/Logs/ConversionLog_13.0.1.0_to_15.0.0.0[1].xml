@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type='text/xsl' href='ConversionLogFile.xsl'?>
+<LogFile projectName="2018_11_06_programma base con FC_V15_1" typeText="Tipo" messageText="Messaggio" timeText="Ora">
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="10/09/2019 13:12:52">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="Aggiornamento avviato" />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="10/09/2019 13:12:52">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="Lettura in corso delle informazioni della versione precedente del progetto/della biblioteca." />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="10/09/2019 13:12:53">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="Creazione del nuovo progetto/della nuova biblioteca in corso..." />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="10/09/2019 13:12:56">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="Esportazione dei dati di progetto/della biblioteca in corso..." />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <Details ServiceId="80" MessageId="30" Timestamp="10/09/2019 13:13:00" Debug="false">
+    <Text />
+  </Details>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="10/09/2019 13:13:00">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="Importazione dei dati nel nuovo progetto/nella nuova biblioteca in corso..." />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <Details ServiceId="80" MessageId="30" Timestamp="10/09/2019 13:13:08" Debug="false">
+    <Text />
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="10/09/2019 13:13:09" Debug="false">
+    <Text>Reorganization succeed!</Text>
+  </Details>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="10/09/2019 13:13:10">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="CheckRepair lost+found objects" />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <Details ServiceId="80" MessageId="30" Timestamp="10/09/2019 13:13:10" Debug="false">
+    <Text>No lost+found object is detected.</Text>
+  </Details>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="10/09/2019 13:13:10">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="Importazione dei dati nel nuovo progetto/nella nuova biblioteca in corso..." />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="10/09/2019 13:13:12">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="Verica della coerenza e totalità del progetto o della biblioteca e riparatura." />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="10/09/2019 13:13:12">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="Aggiornamento in corso del nuovo progetto/della nuova biblioteca." />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="10/09/2019 13:13:15">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="Aggiornamento in corso del nuovo progetto/della nuova biblioteca." />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="10/09/2019 13:13:44">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="Aggiornamento in corso del nuovo progetto/della nuova biblioteca." />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="10/09/2019 13:13:44">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="Conversione delle informazioni dei riferimenti incrociati in corso." />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="10/09/2019 13:13:45">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="Creazione delle informazioni dei riferimenti incrociati riuscita." />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="10/09/2019 13:13:45">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="La conversione delle informazioni dei riferimenti incrociati è terminata." />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="10/09/2019 13:13:45">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="Pulizia dei metadati obsoleti." />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <Details ServiceId="80" MessageId="30" Timestamp="10/09/2019 13:13:48" Debug="false">
+    <Text>Meta Package 'Iecpl' was deleted</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="10/09/2019 13:13:48" Debug="false">
+    <Text>Meta Package 'Iecpl_BlockInterface_V13.0.1' was deleted</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="10/09/2019 13:13:48" Debug="false">
+    <Text>Meta Package 'Iecpl_V12' was deleted</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="10/09/2019 13:13:48" Debug="false">
+    <Text>Meta Package 'S7FP' was deleted</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="10/09/2019 13:13:48" Debug="false">
+    <Text>Meta Package 'S7FP_V12' was deleted</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="10/09/2019 13:13:48" Debug="false">
+    <Text>Meta Package 'Siemens.Automation.CommonServices.Library.V12SP1' was deleted</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="10/09/2019 13:13:48" Debug="false">
+    <Text>Meta Package 'Siemens.Automation.DomainModel.Online' was deleted</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="10/09/2019 13:13:48" Debug="false">
+    <Text>Meta Package 'Siemens.Simatic.HwConfiguration.Security.Model' was deleted</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="10/09/2019 13:13:48" Debug="false">
+    <Text>Meta Package 'Siemens.Simatic.Tech.SMC' was deleted</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="10/09/2019 13:13:48" Debug="false">
+    <Text>Meta Package 'Siemens.TechTrace.Device.Plc.Model' was deleted</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="10/09/2019 13:13:49" Debug="false">
+    <Text>Package container 'Siemens.TechTrace.Device.Plc.Model' was deleted</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="10/09/2019 13:13:49" Debug="false">
+    <Text>Package container 'Siemens.Simatic.Tech.SMC' was deleted</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="10/09/2019 13:13:49" Debug="false">
+    <Text>Package container 'Siemens.Simatic.Safety.Model_V12' was deleted</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="10/09/2019 13:13:49" Debug="false">
+    <Text>Package container 'Siemens.Simatic.Iecpl_V12' was deleted</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="10/09/2019 13:13:49" Debug="false">
+    <Text>Package container 'HW.S71200.CPU.CPU_1214C.MDD_6ES7214-1AE30-0XB0_2.2_13.0.0' was deleted</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="10/09/2019 13:13:49" Debug="false">
+    <Text>Package container 'Siemens.Simatic.Iecpl.S7BUpgradeV13.0.1.0.Mandatory' was deleted</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="10/09/2019 13:13:49" Debug="false">
+    <Text>Package container 'Siemens.Simatic.Iecpl_V13.0.1' was deleted</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="10/09/2019 13:13:49" Debug="false">
+    <Text>Package container 'Siemens.Simatic.Iecpl.S7BSW.V13.0.1.0.NonMandatory' was deleted</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="10/09/2019 13:13:49" Debug="false">
+    <Text>Package container 'Siemens.Simatic.Iecpl.S7BUpgradeV13.0.0.0.Mandatory' was deleted</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="10/09/2019 13:13:49" Debug="false">
+    <Text>Package container 'Siemens.Simatic.Iecpl.S7BUpgradeV12_1.0.Mandatory' was deleted</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="10/09/2019 13:13:49" Debug="false">
+    <Text>Package container 'HW.S71200.SB.Analog.AO.MDD_6ES7232-4HA30-0XB0_1.0_11.0.0' was deleted</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="10/09/2019 13:13:49" Debug="false">
+    <Text>Package container 'HW.S71200.CPU.CPU_1214C.MDD_6ES7214-1AE30-0XB0_2.2_11.0.2' was deleted</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="10/09/2019 13:13:49" Debug="false">
+    <Text>Package container 'HW.S71200.CPU.CPU_12XX.MDD_6ES72XX_XXXXX_XXXX_2.1_11.0.1' was deleted</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="10/09/2019 13:13:49" Debug="false">
+    <Text>Package container 'Siemens.Simatic.AlarmServices' was deleted</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="10/09/2019 13:13:49" Debug="false">
+    <Text>Package container 'Siemens.Simatic.Iecpl' was deleted</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="10/09/2019 13:13:49" Debug="false">
+    <Text>Package container 'Siemens.Simatic.Iecpl.S7BSW.V13.0.1.1.Mandatory' was deleted</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="10/09/2019 13:13:49" Debug="false">
+    <Text>Package container 'Siemens.Simatic.Iecpl.S7BSW.V12.0.1.0.Mandatory' was deleted</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="10/09/2019 13:13:49" Debug="false">
+    <Text>Product version 'Siemens.Simatic.Portal:11.00.02.04' was deleted</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="10/09/2019 13:13:49" Debug="false">
+    <Text>Product version 'Siemens.Simatic.STEP7.Basic:13.00.00.00' was deleted</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="10/09/2019 13:13:49" Debug="false">
+    <Text>Product version 'Siemens.Simatic.STEP7.Basic:12.00.00.00' was deleted</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="10/09/2019 13:13:49" Debug="false">
+    <Text>Product version 'Siemens.Simatic.Portal:13.00.01.00' was deleted</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="10/09/2019 13:13:49" Debug="false">
+    <Text>Product version 'Siemens.Simatic.Portal:13.00.00.00' was deleted</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="10/09/2019 13:13:49" Debug="false">
+    <Text>Product version 'Siemens.Simatic.Portal:12.00.01.00' was deleted</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="10/09/2019 13:13:49" Debug="false">
+    <Text>Product version 'Siemens.Simatic.Portal:12.00.00.00' was deleted</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="10/09/2019 13:13:49" Debug="false">
+    <Text>Product version 'Siemens.Simatic.Portal:11.00.02.00' was deleted</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="10/09/2019 13:13:49" Debug="false">
+    <Text>Product version 'Siemens.Simatic.STEP7.Basic:12.00.01.00' was deleted</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="10/09/2019 13:13:49" Debug="false">
+    <Text>Product version 'Siemens.Simatic.STEP7.Basic:11.00.02.00' was deleted</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="10/09/2019 13:13:49" Debug="false">
+    <Text>Product version 'Siemens.Simatic.STEP7.Basic:11.00.01.00' was deleted</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="10/09/2019 13:13:49" Debug="false">
+    <Text>Product version 'Siemens.Simatic.STEP7.Basic:11.00.00.00' was deleted</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="10/09/2019 13:13:49" Debug="false">
+    <Text>Product version 'Siemens.Simatic.Portal:11.00.00.00' was deleted</Text>
+  </Details>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="10/09/2019 13:13:49">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="Salvataggio in corso del progetto aggiornato/della biblioteca aggiornata." />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="10/09/2019 13:13:49">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="Salvataggio in corso del progetto aggiornato/della biblioteca aggiornata." />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <MessageCell ServiceId="Automation-ObjectFrame-Feedbacks" MessageId="ConversionInfoTabProjectSucceeded" MessageClass="Success" Timestamp="10/09/2019 13:13:49">
+    <Number ServiceNumber="80" MessageNumber="34" />
+    <Text FeedbackText="Il progetto 'C:\Users\S\Desktop\SiPLC201819_labo\ELE1\2018_11_06_programma base con FC\System\PEData.plf' è stato aggiornato e salvato come progetto 'C:\Users\S\Desktop\SiPLC201819_labo\ELE1\2018_11_06_programma base con FC_V15_1\System\PEData.plf'." />
+    <Help HelpId="-1" HelpFile="" />
+  </MessageCell>
+</LogFile>

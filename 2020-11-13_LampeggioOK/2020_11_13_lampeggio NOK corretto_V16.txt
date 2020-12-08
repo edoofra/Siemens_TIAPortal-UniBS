@@ -1,0 +1,8 @@
+Programma Lampeggio NON funzionanente corretto
+Dovrebbe far lampeggiare Q0.7 con frequenza 0,5Hz se Abil (I0.0, NA, 1s) è a 1. Se Abil va a zero il led si spegne immediatamente. Il lampeggio deve partire da acceso.
+
+Errori:
+- Costanti di utente: errata maschera e filtri
+- Variabili: label Lamp a Q0.0 invece che a Q0.7 
+- segmento 3: data dependency su uscita (usare Outi_M), mancato reset timer, mancato spegnimento se !Abil
+- segmento 4:  data dependency su uscita (usare Outi_M), mancato reset timer, mancata accensione se fronte su Abil

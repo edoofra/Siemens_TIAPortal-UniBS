@@ -1,0 +1,14 @@
+Base per macchina a stati
+1) disegnare macchina a stati
+2) in analogia con il programma base, configurare costanti (mascheraNANC, filtri, eventuali tempi della sequenza) e variabili (Q0.x, M1.x, M2.x e, se serve, M3.x) ATTENZIONE! Mettere tutte le nuove variabili a partire dall'indirizzo 12, lasciando inalterata la mappatura da 0 a 10
+3) elencare passi a partire dal segmento 5, rimuovendo gli esempi, e impostando solo il commento in visualizzazione compatta 
+4) elencare transizioni condizionate a partire dal segmento 2 (priorità all'ultimo segmento) rimuovendo gli esempi e impostando solo il commento in visualizzazione compatta 
+5) elencare transizioni incondizionate a seguire di quelle condizionate, rimuovendo gli esempi, e impostando solo il commento in visualizzazione compatta 
+6) implementare passi secondo il commento
+7) implementare transizioni condizionate e incondizionate seguendo il commento
+8) lasciare inalterato il segmento del passaggio di stato (da stato_futuro a stato)
+9) controllare compattando/espandendo i segmenti e guardando i timer in blocchi di sistema/risorse del programma 
+10) compilare, caricare e testare
+NOTA: inserire eventuali Function o istruzioni comuni a tutti gli stati a seguire del segmento 1, subito prima delle transizioni 
+NOTA: dare nomi appropriati a timer e costanti di tempo. Ad esempio, il timer dello stato S5, ossia che serve per uscire dallo stato S5, avrà nome tipo Timer_S5; analogamente la sua costante di tempo avrà nome tipo Tempo_S5
+

@@ -1,0 +1,31 @@
+Programma c_mot_all_guast_arresto anomalo
+Step:
+a_ gestione start (I0.5 NA) Stop (I0.6 NC) motore (Q0.0) se presenza tensione (I0.1), con ventilatore acceso (I0.3 NA), logica di finecorsa di sicurezza (i0.0, NC) per arresto motore e sensore termico motore non intervenuto (I0.4 NA). Gestione Lampada Allarme (Q0.1) con memorizzazione ripristino e rientro (Allarme I0.2, NC, Ripristino I0.7 NA)
+
+b_ funzionalità a, più gestione guasto ventilazione motore (Q0.2) se ventilatore acceso (I0.3 NA) e sensore termico motore intervenuto (I0.4 NA) con motore in movimento. 
+
+c_ aggiunta gestione Allarme_generale (Q0.3), comprensivo di lampada allarme e guasto ventilatore, e aggiunta arresto motore anomalo (Q0.4) che si accende se il motore viene arrestato da situazioni non corrette (intervento finecorsa di sicurezza o allarme o caduta presenza tensione). Il pulsante Start viene utilizzato per resettare l'anomalia che è di sola segnalazione e non necessita di ripristino
+
+ISTRUZIONI 
+*Si realizzi un programma di controllo per un motore. Il motore è azionato da un pulsante di Start e fermato dal pulsante di Stop.
+
+Mappare ingressi NA/NC in memoria, in modo da lavorare in logica vera nel programma.
+Il motore parte se ho tensione, premo start e non sono in condizioni anomale per le quali il motore deve stare fermo.
+Il motore deve fermarsi se c'è un allarme o premo stop o finecorsa o se cade la tensione.
+Si consideri il fermo motore anche in caso di guasto ventilatore e e sensore termico
+
+NOTA: Gestire incastro Pulsanti e motore
+
+I0.0	Finecorsa_NC
+I0.1	Presenza_Tensione_NA
+I0.2	Allarme_NC	
+I0.3	Ventilatore_Motore_NA
+I0.4	Sensore_Termico_Motore_NA
+I0.5	Start_NA
+I0.6	Stop_NC
+I0.7	Ripristino_NA
+
+Q0.0	Motore			   Motore avviato
+Q0.1	Lampada_Allarme	   Segnalazione allarme con memorizzazione ripristino e rientro
+Q0.2    Sirena guasto Ventilatore     Se Motore ON e Ventilatore ON e Sensore Termico ON allora Q0.3    Allarme_generale      Si setta in Presenza di Allarmemem o si guasto Ventil e si resetta con Ripristino
+Q0.4    Arresto motore anomalo     Si accende se il motore viene arrestato da situazioni non corrette (intervento finecorsa di sicurezza o allarme o caduta presenza tensione). Il pulsante Start viene utilizzato per resettare l'anomalia che è di sola segnalazione e non necessita di ripristino

@@ -1,0 +1,3 @@
+Programma che fa Lampeggiare Q0.7 a frequenza di 0,5Hz se Abil_Val (I0.2, NA, 200ms ) è off, mentre il semiperiodo di lampeggio è pari a 100ms*NUM dove NUM è il numero binario da 1 a 15 formato dai bit I0.4-I0.7 (tutti NA, 1s).
+Il lampeggio parte da acceso se va a 1 Abil_A (I0.0, NA, 200ms) e parte da spento se va a 1 Abil_S (I0.1, NA, 200ms).
+Segnalazione di errore su Q0.1 se Abil_A=Abil_S=1 oppure se I0.4-I0.7=0000 e limite a 1 per NUM

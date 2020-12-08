@@ -1,0 +1,17 @@
+Gestione di un motore, con almeno 2 ventilatori su 3 che funzionano e un allarme con memorizzazione ripristino e rientro
+
+Gestione Maschera e rilevatori di fronte
+
+I0.0, Vent_A, NA
+I0.1, Vent_B, NC
+I0.2, Vent_C, NA
+I0.3, Start, NA
+I0.4, Stop, NC
+I0.5 Allarme, NC
+I0.6 Ripristino, NA
+
+Q0.0 Motore
+Q0.1 Ventilazione OK (almeno 2 ventilatori su 3 sono in funzione)
+
+Struttura di memoria di interfaccia tra ingressi Na e NC e variabili di appoggio solo NA
+Mx.0 Allarme memorizzato (Lampada di allarme)

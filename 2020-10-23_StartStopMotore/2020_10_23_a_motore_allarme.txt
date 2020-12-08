@@ -1,0 +1,14 @@
+Gestione di un motore, con almeno 2 ventilatori su 3 che funzionano e un allarme con memorizzazione ripristino e rientro
+Tutti ingressi NA
+I0.0, Vent_A, NA
+I0.1, Vent_B, NA
+I0.2, Vent_C, NA
+I0.3, Start, NA
+I0.4, Stop, NA
+I0.5 Allarme, NA
+I0.6 Ripristino, NA
+
+Q0.0 Motore
+Q0.1 Ventilazione OK (almeno 2 ventilatori su 3 sono in funzione)
+
+M0.0 Allarme memorizzato (Lampada di allarme)

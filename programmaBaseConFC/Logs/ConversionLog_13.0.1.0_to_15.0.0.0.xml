@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type='text/xsl' href='ConversionLogFile.xsl'?>
+<LogFile projectName="2018_11_06_programma base con FC" typeText="Tipo" messageText="Messaggio" timeText="Ora">
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="10/09/2019 13:12:08">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="Aggiornamento avviato" />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="10/09/2019 13:12:08">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="Lettura in corso delle informazioni della versione precedente del progetto/della biblioteca." />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="10/09/2019 13:12:09">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="Creazione del nuovo progetto/della nuova biblioteca in corso..." />
+    <Help HelpId="-1" />
+  </MessageCell>

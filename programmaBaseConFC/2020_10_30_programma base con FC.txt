@@ -1,0 +1,23 @@
+Programma da copiare e incollare ed editare per raggiungere le funzionalità desiderate
+Caratteristiche:
+- Predisposizione delle variabili in OB100 (programma che si avvia una sola volta al reset) con generazione del bit sempre vero
+- Generazione di variabili di appoggio degli ingressi in logica vera (maschera NANC) e filtrati secondo la predisposizione di apposite costanti
+- Generazione di variabili di appoggio relative ai fronti di salita degli ingressi in logica vera (maschera NANC) e filtrati secondo la predisposizione di
+ apposite costanti
+- Generazione di variabili di appoggio delle uscite alla fine del ciclo precedente, da poter essere utilizzate per interrogazioni con valore costante
+ per quel ciclo
+- Uso dell'FC non parametrico Ingresso e Uscite
+
+ISTRUZIONI D'USO
+
+1. Sezione COSTANTI. Aggiornare:
+- maschera NCNA (ricordarsi che il bit 0 è quello più a destra e che si inserisce 1 se NC e 0 se NA)
+- valori dei filtri (se no filtro inserire 1ms)
+Dichiarare altre eventuali costanti
+
+2. Sezione VARIABILI. Dare nomi appropriati a:
+- OUTx (Q0.x) e OUTx_M (M1.x)
+- Inx (M2.x) e Inx_p (M3.x)
+Dichiarare altre eventuali variabili
+
+3. Rimuovere il segmento 2 e aggiungere i nuovi segmenti su MAIN SENZA MODIFICARE IL SEGMENTO 1 e SENZA MODIFICARE IL BLOCCO FC1 Ingressi e Uscite
